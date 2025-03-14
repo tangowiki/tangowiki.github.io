@@ -1,0 +1,21 @@
+
+title: TangoWiki
+description: A collection of resources for learning and teaching Argentine Tango.
+remote_theme: just-the-docs/just-the-docs
+repository: tangowiki.github.io
+
+exclude:
+  - README.md
+  - REVIEWING.md
+
+plugins:
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+
+callouts:
+  warning:
+    title: warning
+    color: yellow
+  tip:
+    title: tip
+    color: green
